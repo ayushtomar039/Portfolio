@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayush Tomar</title>
+    <style>
+      body {
+        background-color: #19376d;
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 90px;
+        background-color: #0b2447;
+      }
+      nav ul {
+        display: flex;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      .left {
+        font-size: 2rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        margin: 110px 0;
+        align-items: center;
+      }
+      .leftsection {
+        font-size: 3rem;
+      }
+      .firstsection > div {
+        width: 30%;
+      }
+      .rightsection img {
+        width: 80%;
+      }
+
+      .purple {
+        color: rgb(154, 80, 223);
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        text-decoration: none;
+        color: rgb(82, 223, 80);
+        /* font-size: 1.04rem; */
+      }
+
+      #element {
+        color: rgb(82, 223, 80);
+      }
+      .secondsection {
+        width: 80vw;
+        margin: auto;
+      }
+      .secondsection h1 {
+        font-size: 1.7rem;
+      }
+
+      .secondsection .textgray {
+        color: gray;
+      }
+
+      .secondsection .box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 90px 0;
+        display: flex;
+      }
+      main > hr {
+        margin: 50px 150px;
+      }
+
+      .secondsection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 170px;
+      }
+      .image-top {
+        width: 60px;
+        position: relative;
+        top: -65px;
+        left: -30px;
+      }
+      .vertical-description {
+        position: relative;
+        top: 62px;
+        left: -20px;
+        font-size: 9px;
+        color: gray;
+      }
+
+      .vertical-text {
+        position: relative;
+        top: 50px;
+        left: -17px;
+      }
+      footer {
+        background-color: #0b0c1a;
+      }
+
+      .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+
+      main {
+        margin-bottom: 400px;
+      }
+
+      .footer ul {
+        list-style: none;
+      }
+
+      .footer-text-center {
+        text-align: center;
+        color: gray;
+      }
+
+      .leftsection .btn {
+        padding: 12px;
+        background: #0b2447;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+      body > main > section.firstsection > div.leftsection > div.buttons {
+        padding: 40px;
+      }
+
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Ayush's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My name is <span class="purple">Ayush</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Github</button>
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="./Assets/images/developer.png" alt="developer" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="textgray">What I've Done So Far</span>
+        <h1>Work Experiences</h1>
+        <div class="box">
+          <div class="vertical">
+            <img
+              class="image-top"
+              src="./Assets/images/dev_small.png"
+              alt="dev_small"
+            />
+            <div class="vertical-text">HTML Developer (2010-2012)</div>
+            <div class="vertical-description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea
+            </div>
+          </div>
+          <div class="vertical">
+            <img
+              class="image-top"
+              src="./Assets/images/c++.png"
+              alt="dev_small"
+            />
+            <div class="vertical-text">C++ Developer (2012-2014)</div>
+            <div class="vertical-description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea
+            </div>
+          </div>
+          <div class="vertical">
+            <img
+              class="image-top"
+              src="./Assets/images/pytho.png"
+              alt="dev_small"
+            />
+            <div class="vertical-text">Python 3 Developer (2014-2016)</div>
+            <div class="vertical-description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea
+            </div>
+          </div>
+          <div class="vertical">
+            <img
+              class="image-top"
+              src="./Assets/images/java.png"
+              alt="dev_small"
+            />
+            <div class="vertical-text">Java Developer (2010-2012)</div>
+            <div class="vertical-description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Ayush's developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-text-center">
+        Copyright &#169; www.ayushportfolio.com | All rights Reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Software Engineer",
+          "UI Designer",
+          "Data Analyst",
+          "Content creator",
+          "Web Developer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
